@@ -11,9 +11,11 @@ Its encoding method is based on the encoding approach of TBCNN(https://sites.goo
 To run this code, you should install BLAS, CBLAS and Gumtree.
 
 0. Prepare your data into the \data\original_data directory.
-1. Run \03-ConstructCandW\diffAST\makeASTJSON.py to construct tree structures before and after modification.
-2. Run \03-ConstructCandW\main_TBCNN.py to construct networks.
-3. Run \xy\Shuffle.py to shuffle.
-4. Run \04-train\train_TBCNN.py to train and create paramTest.
-5. Run sh TBCNN.sh.
-6. Run TBCNNtest.
+1. Run \03-ConstructCandW\main_TBCNN.py to construct fixtrees and construct networks.
+2. Run \xy\Shuffle.py to shuffle.
+3. Run \04-train\train_TBCNN.py to train and create paramTest.
+4. Run sh TBCNN.sh.
+5. Run TBCNNtest.
+
+# Visualization
+We also provide a way to visualize the fix tree.
