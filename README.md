@@ -8,7 +8,7 @@ It uses the diff tool Gumtree(https://github.com/GumTreeDiff/gumtree) to parse t
 Its encoding method is based on the encoding approach of TBCNN(https://sites.google.com/site/treebasedcnn/). We have modified and expanded directly on the source code of TBCNN.
 
 # How to
-To run this code, you should install BLAS, CBLAS and make sure "gumtree" is available in command shell.
+To run this code, you should install BLAS, CBLAS and Gumtree, and make sure "gumtree" is available in command shell.
 
 0. Prepare your data into the \data\original_data directory.
 1. Run \03-ConstructCandW\main_TBCNN.py to construct fixtrees and construct networks.
