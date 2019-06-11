@@ -18,4 +18,4 @@ To run this code, you should install BLAS, CBLAS and Gumtree, and make sure "gum
 5. Run TBCNNtest.
 
 # Visualization
-We also provide a way to visualize the fix tree.
+We also provide a way to visualize the fix tree.(https://github.com/Snivyc/drawDiffTree)
